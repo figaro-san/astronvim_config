@@ -69,6 +69,10 @@ return {
         ensure_installed = { "rust_analyzer" },
       },
     },
+
+    ["neo-tree"] = {
+      hide_dotfiles = false,
+    },
   },
 
   -- Configure require("lazy").setup() options
